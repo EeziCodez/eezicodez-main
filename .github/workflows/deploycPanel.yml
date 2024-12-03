@@ -1,0 +1,26 @@
+name: Deploy to cPanel
+
+on:
+  push:
+    branches:
+      - master # Trigger the workflow when changes are pushed to the main branch
+
+jobs:
+  deploy:
+    name: Deploy to cPanel
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Deploy to cPanel via FTP
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.3
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./ # Path to your project folder
+          server-dir: /public_html/ # Path to the destination on the server
