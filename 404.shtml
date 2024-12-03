@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="EEZICODEZ" />
+    <meta name="description" content="EeziCodez Tech Official Website">
+    <link rel="icon" type="image/png" href="images/favicon-1.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Document title -->
+    <title>EeziCodez Tech | Providing Software Solutions </title>
+    <!-- Stylesheets & Fonts -->
+    <link href="css/plugins.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="./css/inspiro-icons.woff">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+</head>
+<body>
+    <!-- Body Inner -->
+    <div class="body-inner">
+        <!-- Topbar -->
+        <div id="topbar" class="topbar-fullwidth d-none d-lg-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="top-menu">
+                            <li><a href="#">Phone: +234-916-9886-6013, +234-813-133-3162,</a></li>
+                            <li><a href="mailto:contact@eezicodeztech.com">Email: contact@eezicodeztech.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end: Topbar -->
+        <!-- Header -->
+        <header id="header" data-transparent="true" data-fullwidth="true" class="dark submenu-light">
+            <div class="header-inner">
+                <div class="container">
+                    <!--Logo-->
+                    <div id="logo">
+                        <a href="index.html">
+                            <span class="logo-default">EEZICODEZ</span>
+                            <span class="logo-dark">EEZICODEZ</span>
+                        </a>
+                    </div>
+                    <!--End: Logo-->
+                    <!--Navigation Resposnive Trigger-->
+                    <div id="mainMenu-trigger">
+                        <a class="lines-button x"><span class="lines"></span></a>
+                    </div>
+                    <!--end: Navigation Resposnive Trigger-->
+                    <!--Navigation-->
+                    <div id="mainMenu">
+                        <div class="container">
+                            <nav>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.html#why">Why Us</a></li>
+                                    <li class="dropdown"><a href="index.html#services">Services</a>
+                                    </li>
+                                    <li class="dropdown"><a href="#">Platforms</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="admin-mgt-system.html">Admin Management Systems</a></li>
+                                            <li><a href="customer-relationship-mgt.html">Customer Relationship
+                                                    Management (CRM) Systems</a></li>
+                                            <li><a href="e-commerce-platforms.html">E-commerce Platforms</a></li>
+                                            
+                                            <li><a href="telehealth-platforms.html">Telehealth Platforms</a></li>
+                                            <li><a href="learning-mgt-tools.html">Learning Management Tools</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="index.html#about">About Us</a>
+
+                                    </li>
+                                    <li class="dropdown mega-menu-item"><a href="index.html#contact">Contact Us</a>
+
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!--end: Navigation-->
+                </div>
+            </div>
+        </header>
+        <!-- end: Header -->
+        <!-- 404 PAGE -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="page-error-404">404</div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="text-left">
+                            <h1 class="text-medium">Uh Oh! This Page Could Not Be Found!</h1>
+                            <p class="lead">The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+                            <div class="seperator m-t-20 m-b-20"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end:  404 PAGE -->
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="widget">
+                                <div class="widget-title">EEZICODEZ TECH</div>
+                                <p class="mb-5">Transforming Visions into Reality, One 'Eezi' Code at a Time.<br>We're situated in Lekki, Lagos, Nigeria</p>
+                                <a href="index.html#contact"
+                                    class="btn btn-inverted" target="_blank">Contact Us</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <div class="widget">
+                                        <div class="widget-title">Platforms</div>
+                                        <ul class="list">
+                                            <li><a href="admin-mgt-system.html">Admin Mgt. Systems</a></li>
+                                            <li><a href="customer-relationship-mgt.html">CRM Systems</a></li>
+                                            <li><a href="e-commerce-platforms.html">E-commerce Platforms</a></li>
+                                           
+                                            <li><a href="telehealth-platforms.html">Telehealth Platforms</a></li>
+                                            <li><a href="learning-mgt-tools.html">Learning Mgt. Tools</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="widget">
+                                        <div class="widget-title">Services</div>
+                                        <ul class="list">
+                                            <li><a href="index.html#services">Web & Mobile App Development</a></li>
+                                            <li><a href="index.html#services">Project Management</a></li>
+                                            <li><a href="index.html#services">Cyber Security</a></li>
+                                            <li><a href="index.html#services">Pitch Deck Assistance</a></li>
+                                            <li><a href="index.html#services">Product Design</a></li>
+                                            <li><a href="index.html#services">DB Automation & Upgrade</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="widget">
+                                        <div class="widget-title">Pages</div>
+                                        <ul class="list">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="index.html#why">Why Us</a></li>
+                                            <li class="dropdown"><a href="index.html#services">Services</a></li>
+                                            <li class="dropdown"><a href="#">Platforms</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="admin-mgt-system.html">Admin Management Systems</a>
+                                                    </li>
+                                                    <li><a href="customer-relationship-mgt.html">Customer Relationship
+                                                            Management (CRM) Systems</a></li>
+                                                    <li><a href="e-commerce-platforms.html">E-commerce Platforms</a>
+                                                    </li>
+                                                    <li><a href="event-mgt-software.html">Event Management Software</a>
+                                                    </li>
+                                                    <li><a href="hospital-mgt-systems.html">Hospital Management
+                                                            Systems</a></li>
+                                                    <li><a href="school-mgt-tools.html">School Management Tools</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown"><a href="index.html#about">About Us</a>
+                                            </li>
+        
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-content">
+                <div class="container">
+                    <div class="copyright-text text-center">&copy; <span id="copyrightYear">2024</span> EeziCodez Tech - Providing Software Solutions. All Rights Reserved.</div>
+                </div> </div>
+                </div>
+            </div>           
+        </footer>
+        <!-- end: Footer -->
+    </div>
+    <!-- end: Body Inner -->
+    <!-- Scroll top -->
+    <a id="scrollTop"><i class="fas fa-chevron-up"></i><i class="fas fa-chevron-up"></i></a>
+    <!--Plugins-->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+    <!--Template functions-->
+    <script src="js/functions.js"></script>
+</body>
+
+</html>
