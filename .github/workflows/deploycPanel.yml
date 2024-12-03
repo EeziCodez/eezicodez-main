@@ -1,0 +1,26 @@
+name: Deploy to cPanel
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    name: Deploy to cPanel
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the code from the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Deploy to cPanel using FTP
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.5.0
+        with:
+          server: ${{ secrets.CPANEL_FTP_SERVER }} # FTP server (e.g., ftp.yourdomain.com)
+          username: ${{ secrets.CPANEL_FTP_USERNAME }} # cPanel FTP username
+          password: ${{ secrets.CPANEL_FTP_PASSWORD }} # cPanel FTP password
+          local-dir: ./ # Directory to deploy (defaults to the root of your repository)
+          server-dir: /public_html/ # Target directory on the cPanel server
